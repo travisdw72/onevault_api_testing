@@ -1,0 +1,34 @@
+# OneVault API - Production Dependencies
+# ====================================
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# Configuration and Environment
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+PyYAML==6.0.1
+
+# Security and Authentication
+cryptography==41.0.8
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# HTTP Client
+httpx==0.25.2
+
+# Date/Time
+python-dateutil==2.8.2
+
+# Async Support
+aiofiles==23.2.1
+
+# Production WSGI/ASGI
+gunicorn==21.2.0 
